@@ -16,3 +16,11 @@ defenders by attacking them with flipflops.
 Players will be in the attacking group that are trying to destroy the flip flop pyramid.
 
 The path to victory is only a 'flipflop's throw away.
+
+# How to play
+
+You can either download the BalingSelipar executable or compile the source code. 
+
+Python version: 3.11.0
+Pygame version: 2.1.3.dev8
+OS: Windows 10 / 11

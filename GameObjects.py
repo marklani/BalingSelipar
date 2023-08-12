@@ -15,7 +15,7 @@ def resource_path(relative_path):
 
 def load_image(filename):
     """loads an image, prepares it for play"""
-    file = resource_path(os.path.join("mark","assets", filename))
+    file = resource_path(os.path.join("assets", filename))
     try:
         surface = pygame.image.load(file)
     except pygame.error:

@@ -21,7 +21,7 @@ def main():
     pygame.init()
     
     #Setup bgm for game
-    bgm_file = GameObjects.resource_path(os.path.join("mark","assets", "Baling_Selipar_bgm.mp3"))
+    bgm_file = GameObjects.resource_path(os.path.join("assets", "Baling_Selipar_bgm.mp3"))
     pygame.mixer.init()
     pygame.mixer.music.load(bgm_file)
     pygame.mixer.music.set_volume(0.2)

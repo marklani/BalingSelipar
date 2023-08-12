@@ -21,6 +21,18 @@ The path to victory is only a 'flipflop's throw away.
 
 You can either download the BalingSelipar executable or compile the source code. 
 
+# Dependencies
 Python version: 3.11.0
-Pygame version: 2.1.3.dev8
+
+Pygame version: 2.1.3
+
 OS: Windows 10 / 11
+
+# How to compile
+
+Run this in the repository: <code>pyinstaller --onefile --noconsole --add-data "assets/*;assets/" BalingSelipar.py</code>
+
+The executable will be in the folder `dist`.
+
+
+
